@@ -1,0 +1,85 @@
+#header{
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+  }
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: aqua;
+}
+
+.main-page {
+    padding-top: 15px;
+    background-size: cover;
+}
+.main-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    background-color: red;
+    width: 100%;
+    height: auto;
+}
+
+.card-ac1 {
+    background-color: lightpink;
+    height: 450px;
+    width: 450px;
+}
+
+.card-ac2 {
+    background-color: lightblue;
+    height: 450px;
+    width: 450px;
+}
+.card-ac3 {
+    background-color: lightpink;
+    height: 450px;
+    width: 450px;
+}
+
+.card-ac4 {
+    background-color: lightblue;
+    height: 450px;
+    width: 450px;
+}
+.card-ac5 {
+    background-color: lightpink;
+    height: 450px;
+    width: 450px;
+}
+
+.card-ac6 {
+    background-color: lightblue;
+    height: 450px;
+    width: 450px;
+}
+.card-ac7 {
+    background-color: lightpink;
+    height: 450px;
+    width: 450px;
+}
+
+.card-ac8 {
+    background-color: lightblue;
+    height: 450px;
+    width: 450px;
+}
+.card-ac9 {
+    background-color: lightpink;
+    height: 450px;
+    width: 450px;
+}
+
+.card-ac10 {
+    background-color: lightblue;
+    height: 450px;
+    width: 450px;
+}

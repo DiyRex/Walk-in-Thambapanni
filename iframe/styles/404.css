@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100;300;400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -100;
+    margin-top: 63px;
+    border-top:1px solid  #cfcfcf;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    /* border: 2px solid #fff;  */
+   
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid #fff; */
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom-p{
+    display: flex;
+    position: absolute;
+    margin-bottom: 15%;
+    /* border: 2px solid #fff; */
+    bottom: 0;
+    animation: left-right 4s linear infinite;
+}
+.img-search {
+    /* animation-name: flow-up;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: flow-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+    animation: MoveUpDown 3s linear infinite;
+}
+
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      margin-bottom: 10px;
+    }
+    50% {
+      margin-bottom: 50px;
+    }
+  }
+
+@keyframes left-right {
+    0%, 100% {
+      margin-left: 20px;
+    }
+    50% {
+      margin-right: 40px;
+    }
+  }
+
+  #header{
+    z-index: 999;
+  }
