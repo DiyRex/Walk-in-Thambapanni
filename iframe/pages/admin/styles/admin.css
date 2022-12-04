@@ -1,0 +1,118 @@
+body {
+    background: url(../img/boat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+
+/* .main-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 450px;
+    border: 1px solid black;
+    background-color: pink;
+    
+}
+
+.form-box {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+
+} */
+
+
+
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 120px;
+    left: 15%;
+    top: 40%;
+    scale: 1.5;
+    border: 5px solid rgba(158, 158, 158, 0.452);
+    padding: 30px 30px;
+    /* background:linear-gradient(135deg,rgba(122, 77, 9, 0.719),rgba(22, 178, 250, 0.867)); */
+    background-color: rgba(97, 97, 97, 0.616);
+}
+
+.email{
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom:2px solid white;
+    color: rgb(36, 5, 5);
+}
+
+.password {
+    margin-bottom: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom:2px solid white;
+    color: rgb(36, 5, 5);
+}
+
+.login {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    left: 0;
+    right: 0;
+}
+
+.loginb {
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    border:2px solid white ;
+    bottom: 0;
+    background-color: rgba(224, 89, 26, 0);
+    color: white;
+}
+
+.email::placeholder, .password::placeholder{
+    color: white;
+    padding-left: 5px;
+}
+
+.email:focus, .password:focus{
+    padding-bottom: 3px;
+}
+
+.pcontainer {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.login-stats {
+    display: none;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+}
